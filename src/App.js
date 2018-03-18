@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Translate from './Translate';
 import './App.css';
 
@@ -8,7 +7,7 @@ class App extends Component {
     return (
       <div>
         <div>
-          <Translate cmsKey="CMS Project" language="en"/>
+          <Translate cmsKey='CMS Project' language='en' country='us' pageName='testPage'/>
         </div>
       </div>
     );
